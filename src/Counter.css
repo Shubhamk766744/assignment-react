@@ -1,0 +1,27 @@
+.counter-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.counter {
+    display: flex;
+}
+
+.counter .increment {
+    background-color: green;
+}
+
+.counter .decrement {
+    background-color: red;
+}
+
+.counter .increment,
+.counter .decrement {
+    border: none;
+    height: 30px;
+    margin: 0px 25px;
+    color: white;
+    cursor: pointer;
+}
